@@ -1,0 +1,31 @@
+{
+  "name": "jasmine-matcher-errors",
+  "version": "1.0.0",
+  "description": "Customize the error message reported by a custom jasmine matcher.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deckar01/jasmine-matcher-errors.git"
+  },
+  "keywords": [
+    "jasmine",
+    "custom",
+    "error",
+    "message",
+    "matcher",
+    "helper",
+    "duplicate",
+    "copy",
+    "stack",
+    "trace"
+  ],
+  "author": "Jared Deckard <jared.deckard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deckar01/jasmine-matcher-errors/issues"
+  },
+  "homepage": "https://github.com/deckar01/jasmine-matcher-errors#readme"
+}
