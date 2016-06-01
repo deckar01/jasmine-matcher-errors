@@ -1,5 +1,8 @@
 # jasmine-matcher-errors
+
 Customize the error message reported by a custom jasmine matcher.
+
+[![Build Status](https://travis-ci.org/deckar01/jasmine-matcher-errors.svg?branch=master)](https://travis-ci.org/deckar01/jasmine-matcher-errors)
 
 ## Why?
 
