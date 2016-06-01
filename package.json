@@ -4,7 +4,7 @@
   "description": "Customize the error message reported by a custom jasmine matcher.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "istanbul cover jasmine"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/deckar01/jasmine-matcher-errors#readme",
   "devDependencies": {
+    "istanbul": "^0.4.3",
     "jasmine": "^2.4.1"
   }
 }
