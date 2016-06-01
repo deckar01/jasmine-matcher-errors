@@ -3,6 +3,7 @@
 Customize the error message reported by a custom jasmine matcher.
 
 [![Build Status](https://travis-ci.org/deckar01/jasmine-matcher-errors.svg?branch=master)](https://travis-ci.org/deckar01/jasmine-matcher-errors)
+[![Coverage Status](https://coveralls.io/repos/github/deckar01/jasmine-matcher-errors/badge.svg?branch=master)](https://coveralls.io/github/deckar01/jasmine-matcher-errors?branch=master)
 
 ## Why?
 
