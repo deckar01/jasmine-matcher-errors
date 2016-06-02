@@ -1,4 +1,4 @@
-describe("jasmine-error-matchers", function() {
+describe("jasmine v2.x.x matcher errors", function() {
   var wrapCompare = jasmine.Expectation.prototype.wrapCompare;
 
   beforeEach(function() {
