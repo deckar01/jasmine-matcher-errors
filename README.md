@@ -17,7 +17,7 @@ Once you can customize the error message you could keep the message brief, and p
 
 ## Setup
 
-### [jasmine-node](https://github.com/mhevery/jasmine-node)
+### Node
 
  - [Node + npm](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -27,7 +27,7 @@ Once you can customize the error message you could keep the message brief, and p
  2. Include in your custom matchers.
    - `require('jasmine-matcher-errors')`
 
-### [jasmine](https://github.com/jasmine/jasmine)
+### Browser
 
  - [Bower](http://bower.io/#install-bower)
 
