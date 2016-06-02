@@ -40,7 +40,9 @@ Once you can customize the error message you could keep the message brief, and p
 
 ## Usage
 
-Simply add an error object to the return object of your custom matcher.
+### Jasmine v2
+
+Add an error object to the return object of your custom matcher.
 
 ```js
 jasmine.addMatchers({
@@ -55,6 +57,21 @@ jasmine.addMatchers({
         };
       }
     };
+  }
+});
+```
+
+### Jasmine v1
+
+Add an error object to your custom matcher.
+
+```js
+this.addMatchers({
+  exampleMatcher: function(expected) {
+    ...
+    this.message = message;
+    this.error = new Error(message + '\n\n' + details);
+    return pass;
   }
 });
 ```
